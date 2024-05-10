@@ -1,9 +1,9 @@
 # Smart-Property-Price-Prediction
 
-# Project Description:
+## Project Description:
 This data science project aims to build a real estate price prediction website. During model building we will cover concepts such as data loading, data cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation, etc. 
 
-# Tools used:
+## Tools used:
 1. Python
 2. Numpy and Pandas - Data Cleaning
 3. Matplotlib - Data Visualization
@@ -13,12 +13,12 @@ This data science project aims to build a real estate price prediction website. 
 7. HTML/CSS/Javascript - UI
 8. AWS
 
-# Steps:
+## Steps:
 1. We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com. 
 2. We would write a python flask server that uses the saved model to serve http requests. 
 3. We build the website using html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. 
 
-# Steps to Deploy this app to cloud (AWS EC2)
+## Steps to Deploy this app to cloud (AWS EC2)
 
 1. Create EC2 instance using amazon console, also in security group add a rule to allow HTTP incoming traffic
 2. Now connect to your instance using a command like this,
